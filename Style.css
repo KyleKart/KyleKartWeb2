@@ -1,0 +1,199 @@
+html {
+    background: #313131;
+    font-family: Inter,sans-serif;
+}
+
+#header {
+    background: #242424;
+    color: rgba(255, 255, 255, 0.5);
+    height: 3.25rem;
+    left: 0;
+    top: 0;
+    line-height: 3.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 10001;
+}
+
+/* Chat containers */
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+/* Clear floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo {
+    color: #FF8100;
+    font-size: 3rem;
+    font-weight: 700;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 1.25rem;
+    text-decoration: none;
+}
+
+.links {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 1.25rem;
+    text-decoration: none;
+    float: right;
+    background-color: #242424;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.chat1 {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 1.25rem;
+padding-bottom: 30px;
+    text-decoration: none;
+    float: right;
+    background-color:  #00FF00;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.chat2 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 1.5rem;
+  padding-bottom: 30px;
+    text-decoration: none;
+    float: left;
+    background-color: 	#0000FF;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.chat3 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 1.25rem;
+    text-decoration: none;
+  text-align: center;
+    background-color:  #00FF00;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.title {
+    align-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 10rem;
+}
+
+.titleTitle {
+    align-content: center;
+    margin: -250px;
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+
+.homeTL {
+    font-size: 3.5rem;
+    color: white;
+    text-align: left;
+}
+
+.homePL {
+    padding-top: 0.5rem;
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    margin-right: 50%;
+}
+
+.homeTR {
+    color: #DA005A;
+    font-size: 3.5rem;
+    color: white;
+    text-align: right;
+}
+
+.homePR {
+    padding-top: 0.5rem;
+    font-size: 2rem;
+    color: white;
+    text-align: right;
+    margin-left: 50%;
+}
+
+.FunCommandsBox {
+    background-color: #222222;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 1000px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 18px;
+}
+
+.Content {
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.CommandsBoxT {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.CommandsBoxP {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: white;
+}
+
+
+
+
+
+
+.footer {
+    background: #111111;
+    z-index: 998;
+    left: -10;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+}
+
+.footerText {
+    padding-top: 2rem;
+    text-align: center;
+    color: ghostwhite;
+    font-size: 2rem;
+}

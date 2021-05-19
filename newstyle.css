@@ -1,0 +1,223 @@
+html {
+    background: #313131;
+    font-family: Inter,sans-serif;
+}
+
+html, body { 
+  width:100%;
+    margin: 0px;
+}
+
+/* Chat containers */
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+/* Clear floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/* St
+yle time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
+
+#header {
+    background: #242424;
+    color: rgba(255, 255, 255, 0.5);
+    height: 3.25rem;
+    left: 0;
+    top: 0;
+    line-height: 3.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 10001;
+}
+
+.logo {
+    color: #FF8100;
+    font-size: 3rem;
+    font-weight: 700;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 1.25rem;
+    text-decoration: none;
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+<img src="https://images-ext-1.discordapp.net/external/HJjkdP-PUTJ_IZ_KwJC_iexz7gVKXM2ZcMJS9sF0z8A/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/759737020833595432/6d40a19ad3090850516f1b7795640704.webp?width=300&height=300" alt="Paris">
+
+.links {
+    color: #FF8100;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 1.25rem;
+    text-decoration: none;
+    float: right;
+    background-color: #242424;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.title {
+    align-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 10rem;
+}
+
+.titleTitle {
+    align-content: center;
+    margin: -250px;
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+
+.homeTL {
+    font-size: 3.5rem;
+    color: white;
+    text-align: left;
+}
+
+.homePL {
+    padding-top: 0.5rem;
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    margin-right: 50%;
+}
+
+.homeTR {
+    color: #DA005A;
+    font-size: 3.5rem;
+    color: white;
+    text-align: right;
+}
+
+.homePR {
+    padding-top: 0.5rem;
+    font-size: 2rem;
+    color: white;
+    text-align: right;
+    margin-left: 50%;
+}
+
+.commandsLinksBox {
+    background-color: #222222;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 175px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 18px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.commandsLinks {
+    color: #DA005A;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.FunCommandsBox {
+    background-color: #222222;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 1000px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 18px;
+}
+
+.Content {
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.CommandsBoxT {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.CommandsBoxP {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: white;
+}
+
+
+
+
+
+
+.footer {
+    background: #242424;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+}
+
+.footerTextL {
+    padding-top: 2rem;
+    padding-left: 20%;
+    padding-right:55%;
+    text-align: left;
+    color: ghostwhite;
+    font-size: 2rem;
+}
+
+.footerTextR {
+    margin-top: -100px;
+    padding-right: 20%;
+    text-align: right;
+    color: ghostwhite;
+    font-size: 2rem;
+}
